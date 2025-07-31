@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio About</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-purple-900 text-white font-sans overflow-x-hidden">
+  <nav class="flex justify-center space-x-10 py-6 text-lg font-medium">
+    <a href="#" class="hover:text-purple-400">HOME</a>
+    <a href="#" class="hover:text-purple-400">ABOUT</a>
+    <div class="w-16 h-2 bg-purple-600 rounded-t-xl -mt-2"></div>
+    <a href="#" class="hover:text-purple-400">WORK</a>
+    <a href="#" class="hover:text-purple-400">CONTACT</a>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="flex flex-col md:flex-row items-center justify-between px-10 md:px-20 py-10">
+    <!-- Left Content -->
+    <div class="max-w-xl space-y-6">
+      <h1 class="text-4xl md:text-5xl font-extrabold leading-tight">
+        Hi, I’m <span class="text-white">Tooba Meraj</span><br />
+        <span class="text-cyan-400">Aspiring </span><span class="text-purple-400">web-Developer</span>
+      </h1>
+      <p class="text-gray-300 leading-relaxed">
+        I'm an aspiring web developer with a strong passion for building clean, responsive, and user-friendly websites. I enjoy turning ideas into functional digital experiences and am constantly learning new technologies to improve my craft. From front-end design with HTML, CSS, and JavaScript to exploring modern frameworks and tools, I’m dedicated to growing as a developer and creating meaningful web solutions. I'm excited to continue building projects that reflect both creativity and technical skill.
+      </p>
+      <a href="#" class="inline-block px-6 py-2 rounded-full bg-gradient-to-r from-cyan-400 to-purple-400 text-white font-medium hover:scale-105 transition transform duration-300">
+        Contact
+      </a>
+    </div>
+
+    <!-- Right Image -->
+    <div class="image-wrapper">
+      <img src="C:\Users\DELL\Desktop\Toobameraj\WhatsApp Image 2025-07-30 at 6.51.21 PM.jpeg" alt="profile" class="circular-image"/>
+    </div>
+    <style>
+      image-wrapper{
+        display: grid;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+        gap: 20px;
+      }
+      .circular-image{
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        object-fit: cover;
+        box-shadow: 0 2px 5px;
+        border: 2px solid #f0f;
+        margin-left: 20px;
+        align-items: center;
+        justify-content: center;
+      } 
+    </style>
+  </section>
+  <section class="min-h-screen flex flex-col items-center justify-center px-4 text-center relative">
+
+    <!-- About Section -->
+    <h1 class="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-cyan-400 via-blue-400 to-pink-500 bg-clip-text text-transparent">
+      About
+    </h1>
+
+    <p class="max-w-3xl text-gray-300 text-base md:text-lg leading-relaxed mb-12">
+      I'm a junior front-end developer looking for a new role in an exciting company. I focus on writing accessible HTML,
+      using modern CSS practices and writing clean JavaScript. When writing JavaScript code, I mostly use React, but I can adapt to
+      whatever tools are required. I'm based in London, UK, but I'm happy working remotely and have experience in remote teams.
+      When I'm not coding, you'll find me outdoors. I love being out in nature whether that's going for a walk, run or cycling.
+      I’d love you to check out my work.
+    </p>
+
+    <!-- Tech Icons -->
+    <div class="flex flex-wrap justify-center gap-5 mb-20">
+      <!-- Replace src with your own icons or SVGs -->
+      <img src="https://cdn.simpleicons.org/react/61DAFB" class="w-10 h-10" alt="React" />
+      <img src="https://cdn.simpleicons.org/html5/E34F26" class="w-10 h-10" alt="HTML" />
+      <img src="https://cdn.simpleicons.org/css3/1572B6" class="w-10 h-10" alt="CSS" />
+      <img src="https://cdn.simpleicons.org/javascript/F7DF1E" class="w-10 h-10" alt="JavaScript" />
+      <img src="https://cdn.simpleicons.org/tailwindcss/06B6D4" class="w-10 h-10" alt="Tailwind CSS" />
+      <img src="https://cdn.simpleicons.org/visualstudiocode/007ACC" class="w-10 h-10" alt="VS Code" />
+      <img src="https://cdn.simpleicons.org/figma/F24E1E" class="w-10 h-10" alt="Figma" />
+      <img src="https://cdn.simpleicons.org/adobephotoshop/31A8FF" class="w-10 h-10" alt="Photoshop" />
+    </div>
+
+    <!-- Central Orb Graphic -->
+    <div class="relative mb-20">
+      <div class="w-40 h-40 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center shadow-2xl animate-pulse">
+        <span class="text-white text-4xl font-bold">Σ</span>
+      </div>
+
+      <!-- Orbit rings (decorative only) -->
+      <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+        <div class="w-60 h-60 rounded-full border border-purple-700 opacity-30 absolute animate-spin-slow"></div>
+        <div class="w-80 h-80 rounded-full border border-purple-700 opacity-20 absolute animate-spin-reverse"></div>
+      </div>
+    </div>
+
+    <!-- Recent Work -->
+    <h2 class="text-3xl md:text-4xl font-bold mb-2 bg-gradient-to-r from-cyan-400 via-blue-400 to-pink-500 bg-clip-text text-transparent">
+      Recent Work
+    </h2>
+    <p class="text-gray-400">A collection of projects I’ve worked on.</p>
+
+  </section>
+
+  <style>
+    @keyframes spin-slow {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    @keyframes spin-reverse {
+      0% { transform: rotate(360deg); }
+      100% { transform: rotate(0deg); }
+    }
+    .animate-spin-slow {
+      animation: spin-slow 20s linear infinite;
+    }
+    .animate-spin-reverse {
+      animation: spin-reverse 30s linear infinite;
+    }
+  </style>
+  <div class="flex flex-col md:flex-row items-center gap-4">
+    <div class="text-box space-y-4">
+      <h3 class="text-2xl font-bold text-pink-800">Landing page</h3>
+      <h1 class="text-lg font-bold">Discription of the Project</h1>
+      <p class="bg-purple-300 bg-opacity-20 p-4 rounded-xl">
+        This landing page is designed using HTML, CSS, and Tailwind CSS to create a clean, modern, and fully responsive user experience. The structure is built with semantic HTML5 elements, providing a solid foundation for content organization. Styling is primarily handled by Tailwind CSS, a utility-first framework that allows for rapid development and consistent design across the page. The layout includes a prominent hero section with a bold headline, subheading, and a clear call-to-action button, all centered using Tailwind’s flexbox utilities. Below that, a features section showcases key benefits or services in a responsive grid layout, enhanced with icons and concise descriptions. A testimonials section adds credibility through user reviews, styled with shadows and rounded corners to create visually appealing cards. The page also includes a newsletter sign-up form, where input fields and buttons are styled with Tailwind’s form and transition classes to improve user interaction. Finally, the footer contains social media links and essential site information, organized with flex or grid layouts. Overall, the use of Tailwind CSS enables fast prototyping, ensures mobile-first responsiveness, and results in a visually appealing and maintainable landing page.
+      </p>
+      <style>
+        .text-box{
+          max-width: 1500x;
+          padding: 16px;
+          background-color: blueviolet;
+          border-radius: 10px;
+          margin: 15px 0;
+          text-align:start;
+        }
+      </style>
+      <div class="flex-space-x-4 text-xl">
+        <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+
+        <div class="flex flex-col md:flex-row items-center gap-4">
+    <div class="text-box space-y-4">
+      <h3 class="text-2xl font-bold text-pink-800">Amazon Clone</h3>
+      <h1 class="text-lg font-bold">Discription of the Project</h1>
+      <p class="bg-purple-300 bg-opacity-20 p-4 rounded-xl">
+        An Amazon clone built using HTML and CSS is a static replica of the popular e-commerce website designed to mimic its layout, structure, and styling. Using HTML, the basic framework of the site is created, including sections like the navigation bar, search bar, product listings, sidebar filters, and footer. CSS is used to style these elements to closely resemble the original Amazon interface, including features such as the signature color scheme, button styles, product card layouts, and responsive grid designs. The navigation bar typically includes the Amazon logo, a location selector, a search input, and cart and account icons. Below that, product sections are laid out in rows or cards, showcasing images, names, ratings, prices, and "Add to Cart" buttons. Although this clone doesn’t include backend functionality or dynamic features like real-time search or checkout, it provides a strong visual and structural imitation of Amazon’s front-end design, making it an excellent project for practicing HTML and CSS skills while learning how to build complex web layouts.
+      </p>
+      <style>
+        .text-box{
+          max-width: 1500x;
+          padding: 16px;
+          background-color: blueviolet;
+          border-radius: 10px;
+          margin: 15px 0;
+          text-align:start;
+        }
+      </style>
+      <div class="flex-space-x-4 text-xl">
+        <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+
+        
+
+
+          
+          
+
+
+
+        
+          
+      
+
+        
+
+        
+
+          
+
+</body>
+</html>
